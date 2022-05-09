@@ -93,6 +93,10 @@
         align-items: center;
         justify-content: center;
     }
+
+    .form_error_labels {
+        flex-direction: column;
+    }
 }
 
 
