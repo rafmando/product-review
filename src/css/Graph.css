@@ -1,0 +1,10 @@
+.graph_title {
+    width: 140px;
+    margin-left: 25px;
+}
+
+@media screen and (max-width: 720px) {
+    .graph_title {
+        margin-left: 0;
+    }
+}

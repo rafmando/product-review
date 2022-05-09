@@ -1,0 +1,98 @@
+.form_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    width: 600px;
+    color: rgb(12, 17, 66);
+    display: flex;
+    justify-content: center;
+    margin-top: -180px;
+}
+.form p{
+    font-weight: 300;
+}
+/*Form input fields*/
+.form_inputs {
+    width: 300px;
+    height: 300px;
+    margin-top: 200px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form_input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(190, 190, 190);
+}
+
+.form_input:focus {
+    border: 1px solid rgb(12, 17, 66);
+    outline: none;
+}
+
+.form_input[type=text] {
+    color: rgb(12, 17, 66);
+    font-weight: 300;
+}
+
+.comment {
+    height: 100px;
+    resize: none;
+}
+
+.form_submit_btn {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    padding: 15px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+
+.form_submit_error {
+    font-size: 13px;
+    margin-top: 10px;
+    font-weight: 300;
+    color: rgb(255, 42, 42);
+
+}
+
+.form_error_labels {
+    display: flex;
+    gap: 20px;
+}
+/*Form Graph*/
+.form_graph {
+    width: 300px;
+    height: 300px;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 720px) {
+    .form {
+        width: 600px;
+        color: rgb(12, 17, 66);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .form_graph {
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
