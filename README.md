@@ -28,7 +28,8 @@ test@email.com
 ```
 I loved this product!
 ```
-4. Should show comment like the pic below...
+7. Press the submit button 
+6. If all fields are valid it should show a comment like the pic below...
 
 <img src="public/assets/test_com.png">
 
