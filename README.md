@@ -1,6 +1,6 @@
 # Product review
 
-Allows users to add a comment with a rating which displays data on a pie chart. (struggles & improvements in notes.txt file)
+Allows users to add a comment with a rating which displays data on a doughnut chart. (struggles & improvements in notes.md file)
 
 ## Run the app in Visual Studio
 1. Install dependancies
